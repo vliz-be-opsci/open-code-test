@@ -1,0 +1,59 @@
+# contributors, either people or organization who helped develop the code
+contributors:
+- firstname: john
+  lastname: doe
+  email: john.doe@vliz.be
+  orcid: http://orcid.org/some-orc-id
+
+# Person or Organization holding cody rights over the code
+copyRightHolder:
+- firstname: john
+  lastname: doe
+  email: john.doe@vliz.be
+  orcid: http://orcid.org/some-orc-id
+
+# Organization, Project or Person who funded the development of the code 
+# (often this is the project in context of which the code was developed)
+funder:
+- name: project name 
+  email: name@project.net
+  rorid: http://ror.org/some-ror-id
+
+# Person|Organization responsible for maintaining the repository
+maintainer:
+- firstname: john
+  lastname: doe
+  email: john.doe@vliz.be
+  orcid: http://orcid.org/some-orc-id
+
+runtimeplatform: Windows11
+
+#Component dependency requirements for application. 
+#such as runtime environments and shared libraries that are not included in the application distribution package, but required to run the application
+softwareRequirements:
+  - type: SoftwareApplication
+    identifier: https://cran.r-project.org/package=rnaturalearth
+    name: rnaturalearth
+    version: 1.0.1
+  - type: SoftwareApplication
+    identifier: https://cran.r-project.org/package=rnaturalearthdata
+    name: rnaturalearthdata
+    version: 1.0.0"
+  - type: SoftwareApplication
+    identifier: https://cran.r-project.org/package=devtools
+    name: devtools
+    version: 2.4.5
+  - type: SoftwareApplication
+    identifier: https://cran.r-project.org/package=knitr
+    name: knitr
+    version: 1.45
+  - type: SoftwareApplication
+    identifier: https://cran.r-project.org/package=kableExtra
+    name: kableExtra
+    version: 1.4.0
+
+keywords:
+  - keyword1
+  - Ecological value assessment
+  - biodiversity or https://aims.fao.org/aos/agrovoc/c_33949.html
+  - ...
